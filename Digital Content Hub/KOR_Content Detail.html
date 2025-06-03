@@ -49,22 +49,31 @@
   </div>
 
   <!-- Country Overview -->
-  <section class="py-10 bg-gradient-to-r from-indigo-50 to-blue-50">
+  <section class="py-6 bg-gradient-to-r from-indigo-50 to-blue-50">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto">
-        <h1 class="text-3xl font-bold text-indigo-800 mb-6">South Korea</h1>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <div class="bg-white rounded-lg shadow p-6">
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Research Papers</h3>
-            <p class="text-3xl font-bold text-indigo-600">104</p>
+        <h1 class="text-3xl font-bold text-indigo-800 mb-4">South Korea</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+          <div class="flex items-center bg-white rounded-lg p-4 gap-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Papers" class="w-10 h-10 object-contain" style="background:#6366F1;border-radius:6px;padding:6px;">
+            <div>
+              <div class="text-xs text-gray-500 font-medium">Research Papers</div>
+              <div class="text-2xl font-bold text-indigo-700">104</div>
+            </div>
           </div>
-          <div class="bg-white rounded-lg shadow p-6">
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Trends Identified</h3>
-            <p class="text-3xl font-bold text-indigo-600">16</p>
+          <div class="flex items-center bg-white rounded-lg p-4 gap-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Trends" class="w-10 h-10 object-contain" style="background:#8B5CF6;border-radius:6px;padding:6px;">
+            <div>
+              <div class="text-xs text-gray-500 font-medium">Trends Identified</div>
+              <div class="text-2xl font-bold text-purple-600">16</div>
+            </div>
           </div>
-          <div class="bg-white rounded-lg shadow p-6">
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Success Stories</h3>
-            <p class="text-3xl font-bold text-indigo-600">29</p>
+          <div class="flex items-center bg-white rounded-lg p-4 gap-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/565/565547.png" alt="Success" class="w-10 h-10 object-contain" style="background:#06B6D4;border-radius:6px;padding:6px;">
+            <div>
+              <div class="text-xs text-gray-500 font-medium">Success Stories</div>
+              <div class="text-2xl font-bold text-cyan-500">29</div>
+            </div>
           </div>
         </div>
       </div>
@@ -72,40 +81,40 @@
   </section>
 
   <!-- Section 2: Statistics Diagram & Indicators -->
-  <section class="py-10">
+  <section class="py-6">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto">
-        <h2 class="text-2xl font-semibold text-indigo-800 mb-6">Key Indicators</h2>
-        <div class="bg-white rounded-lg shadow p-6 mb-6 flex flex-col md:flex-row gap-6 items-center justify-between">
-          <div id="regionalIndexChart" style="width:320px;min-width:240px;height:320px;"></div>
-          <div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 flex flex-col gap-2">
-              <h3 class="text-base font-medium text-indigo-700 mb-2 flex items-center gap-2"><img src='https://cdn-icons-png.flaticon.com/512/3135/3135715.png' alt='finance' class='w-5 h-5'>Financial</h3>
-              <div class="flex justify-between items-center"><span>자금 조달</span><span class="font-bold text-indigo-600">77</span></div>
+        <h2 class="text-2xl font-semibold text-indigo-800 mb-4">Key Indicators</h2>
+        <div class="bg-white rounded-lg p-4 mb-4 flex flex-col md:flex-row gap-4 items-center justify-between">
+          <div id="regionalIndexChart" style="width:260px;min-width:180px;height:260px;"></div>
+          <div class="flex-1 grid grid-cols-2 sm:grid-cols-3 gap-2">
+            <div class="bg-gray-50 rounded px-3 py-2 flex flex-col items-center">
+              <span class="text-xs text-gray-500 mb-1">Financial</span>
+              <span class="text-xl font-bold text-cyan-500">77</span>
             </div>
-            <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 flex flex-col gap-2">
-              <h3 class="text-base font-medium text-indigo-700 mb-2 flex items-center gap-2"><img src='https://cdn-icons-png.flaticon.com/512/3135/3135768.png' alt='talent' class='w-5 h-5'>Time & Talent</h3>
-              <div class="flex justify-between items-center"><span>인재와 시간</span><span class="font-bold text-indigo-600">68</span></div>
+            <div class="bg-gray-50 rounded px-3 py-2 flex flex-col items-center">
+              <span class="text-xs text-gray-500 mb-1">Time & Talent</span>
+              <span class="text-xl font-bold text-cyan-500">68</span>
             </div>
-            <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 flex flex-col gap-2">
-              <h3 class="text-base font-medium text-indigo-700 mb-2 flex items-center gap-2"><img src='https://cdn-icons-png.flaticon.com/512/1828/1828884.png' alt='voice' class='w-5 h-5'>Voice & Influence</h3>
-              <div class="flex justify-between items-center"><span>영향력</span><span class="font-bold text-indigo-600">74</span></div>
+            <div class="bg-gray-50 rounded px-3 py-2 flex flex-col items-center">
+              <span class="text-xs text-gray-500 mb-1">Voice & Influence</span>
+              <span class="text-xl font-bold text-cyan-500">74</span>
             </div>
-            <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 flex flex-col gap-2">
-              <h3 class="text-base font-medium text-indigo-700 mb-2 flex items-center gap-2"><img src='https://cdn-icons-png.flaticon.com/512/1828/1828919.png' alt='innovation' class='w-5 h-5'>Innovation</h3>
-              <div class="flex justify-between items-center"><span>혁신</span><span class="font-bold text-indigo-600">82</span></div>
+            <div class="bg-gray-50 rounded px-3 py-2 flex flex-col items-center">
+              <span class="text-xs text-gray-500 mb-1">Innovation</span>
+              <span class="text-xl font-bold text-cyan-500">82</span>
             </div>
-            <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 flex flex-col gap-2">
-              <h3 class="text-base font-medium text-indigo-700 mb-2 flex items-center gap-2"><img src='https://cdn-icons-png.flaticon.com/512/565/565547.png' alt='transparency' class='w-5 h-5'>Transparency</h3>
-              <div class="flex justify-between items-center"><span>투명성</span><span class="font-bold text-indigo-600">70</span></div>
+            <div class="bg-gray-50 rounded px-3 py-2 flex flex-col items-center">
+              <span class="text-xs text-gray-500 mb-1">Transparency</span>
+              <span class="text-xl font-bold text-cyan-500">70</span>
             </div>
-            <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 flex flex-col gap-2">
-              <h3 class="text-base font-medium text-indigo-700 mb-2 flex items-center gap-2"><img src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png' alt='regulation' class='w-5 h-5'>Regulatory Env.</h3>
-              <div class="flex justify-between items-center"><span>규제 환경</span><span class="font-bold text-indigo-600">73</span></div>
+            <div class="bg-gray-50 rounded px-3 py-2 flex flex-col items-center">
+              <span class="text-xs text-gray-500 mb-1">Regulatory Env.</span>
+              <span class="text-xl font-bold text-cyan-500">73</span>
             </div>
-            <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 flex flex-col gap-2">
-              <h3 class="text-base font-medium text-indigo-700 mb-2 flex items-center gap-2"><img src='https://cdn-icons-png.flaticon.com/512/3135/3135789.png' alt='culture' class='w-5 h-5'>Philanthropic Culture</h3>
-              <div class="flex justify-between items-center"><span>기부 문화</span><span class="font-bold text-indigo-600">86</span></div>
+            <div class="bg-gray-50 rounded px-3 py-2 flex flex-col items-center">
+              <span class="text-xs text-gray-500 mb-1">Philanthropic Culture</span>
+              <span class="text-xl font-bold text-cyan-500">86</span>
             </div>
           </div>
         </div>
